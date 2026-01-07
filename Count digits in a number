@@ -2,10 +2,10 @@ Question: Count digits in a number.
 Input: 5873
 Output: 4
 
-//program
+//solution
 n=5873
 count=0
 while n>0:
-      count+=1
-      num//10
+    count+=1
+    n=n//10
 print(count)
