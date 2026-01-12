@@ -1,0 +1,10 @@
+Extract ecah digit from right to left
+Input= 349
+Output=943
+
+Solution
+n = 349
+while n>0:
+    new_number=n%10
+    print(new_number, end="")
+    n = n//10
