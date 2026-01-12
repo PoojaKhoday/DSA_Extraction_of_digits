@@ -1,0 +1,11 @@
+Sum of digits
+Input: 1235
+Output:10
+
+Solution
+n = 1234
+sum=0
+while n>0:
+    sum+=n%10
+    n = n//10
+print(sum)   
