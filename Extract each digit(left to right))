@@ -1,1 +1,9 @@
+Extract each digit from left to right
+Input: 349
+Output: 3 4 9
+
+Solution
+n = 349
+for i in str(n):
+    print(i, "",end="")
 
