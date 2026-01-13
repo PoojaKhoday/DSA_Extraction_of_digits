@@ -1,0 +1,14 @@
+Even Digit Extraction
+Count Even Numbers
+Input: 23841
+Output:3
+
+Solution
+n = 23841
+count=0
+while n>0:
+    new = n%10
+    if new%2 == 0:
+        count+=1
+    n = n//10
+print(count)    
