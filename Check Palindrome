@@ -1,0 +1,18 @@
+Check Palindrome Number
+Input: 1221
+Output: Palindrome
+
+Solution
+n = 1221
+temp = n
+palindrome_check = 0
+
+while n>0 :
+    remainder = n%10
+    palindrome_check = (palindrome_check*10) + remainder
+    n=n//10
+if(temp==palindrome_check):
+    print("Palindrome")
+else:        
+    print("Not a Palindrome")
+        
